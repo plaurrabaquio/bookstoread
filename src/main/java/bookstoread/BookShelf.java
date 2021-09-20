@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 public class BookShelf {
 
     private final List<Book> books = new ArrayList<>();
-    int capacity;
+    int capacity = Integer.MAX_VALUE;
 
     public BookShelf(int capacity) {
         this.capacity = capacity;
